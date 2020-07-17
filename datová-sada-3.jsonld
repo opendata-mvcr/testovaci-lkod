@@ -1,10 +1,7 @@
 {
   "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
   "iri": "https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-3.jsonld",
-  "typ": [
-    "Datová sada",
-    "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
-  ],
+  "typ": "Datová sada",
   "název": {
     "cs": "Spodní datová sada hierarchie 2",
     "en": "Lower dataset 2 in a hierarchy"
@@ -18,19 +15,23 @@
   ],
   "geografické_území": [],
   "prostorové_pokrytí": [],
-  "klíčové_slovo": {
-    "cs": [
-      "hierarchie",
-      "spodní"
-    ],
-    "en": [
-      "hierarchy",
-      "lower"
-    ]
-  },
-  "periodicita_aktualizace": "frequency:MONTHLY",
+  "klíčové_slovo": [
+    {
+      "cs": "hierarchie"
+    },
+    {
+      "cs": "spodní"
+    },
+    {
+      "en": "hierarchy"
+    },
+    {
+      "en": "lower"
+    }
+  ],
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
   "téma": [
-    "theme:INTR"
+    "http://publications.europa.eu/resource/authority/data-theme/INTR"
   ],
   "koncept_euroVoc": [],
   "specifikace": [
@@ -48,13 +49,12 @@
       "přístupové_url": "https://endpoint1.cz",
       "přístupová_služba": {
         "typ": "Datová služba",
-        "endpoint": "https://endpoint1.cz",
-        "popis_endpointu": "https://endpointDesc.cz",
+        "přístupový_bod": "https://endpoint1.cz",
+        "popis_přístupového_bodu": "https://endpointDesc.cz",
         "název": {
           "cs": "Endpoint1",
           "en": "Endpoint1EN"
-        },
-        "http://www.w3.org/ns/dcat#servesDataset": "https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-3.jsonld"
+        }
       },
       "podmínky_užití": {
         "typ": "Specifikace podmínek užití",

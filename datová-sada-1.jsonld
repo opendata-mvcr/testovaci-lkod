@@ -1,10 +1,7 @@
 {
   "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
   "iri": "https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-1.jsonld",
-  "typ": [
-    "Datová sada",
-    "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
-  ],
+  "typ": "Datová sada",
   "název": {
     "cs": "Vrchní datová sada hierarchie",
     "en": "Top dataset in a hierarchy"
@@ -18,19 +15,23 @@
   ],
   "geografické_území": [],
   "prostorové_pokrytí": [],
-  "klíčové_slovo": {
-    "cs": [
-      "hierarchie",
-      "vrchní"
-    ],
-    "en": [
-      "hierarchy",
-      "top"
-    ]
-  },
-  "periodicita_aktualizace": "frequency:MONTHLY",
+  "klíčové_slovo": [
+    {
+      "cs": "hierarchie"
+    },
+    {
+      "cs": "vrchní"
+    },
+    {
+      "en": "hierarchy"
+    },
+    {
+      "en": "top"
+    }
+  ],
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
   "téma": [
-    "theme:INTR"
+    "http://publications.europa.eu/resource/authority/data-theme/INTR"
   ],
   "koncept_euroVoc": [],
   "specifikace": [
