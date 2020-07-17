@@ -15,20 +15,16 @@
   ],
   "geografické_území": [],
   "prostorové_pokrytí": [],
-  "klíčové_slovo": [
-    {
-      "cs": "hierarchie"
-    },
-    {
-      "cs": "vrchní"
-    },
-    {
-      "en": "hierarchy"
-    },
-    {
-      "en": "top"
-    }
-  ],
+  "klíčové_slovo": {
+    "cs": [
+      "hierarchie",
+      "vrchní"
+    ],
+    "en": [
+      "hierarchy",
+      "top"
+    ]
+  },
   "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
   "téma": [
     "http://publications.europa.eu/resource/authority/data-theme/INTR"
