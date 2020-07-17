@@ -1,0 +1,19 @@
+{
+	"@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+	"iri": "https://opendata-mvcr.github.io/testovaci-lkod/katalog.jsonld",
+	"typ": "Katalog",
+	"název": {
+		"cs": "Testovací lokální katalog otevřených dat",
+		"en": "Test Open Data Catalog"
+	},
+	"popis": {
+		"cs": "Testovací instance katalogu typu DCAT-AP dokumenty na GitHub Pages",
+		"en": "GitHub Pages ODC test instance"
+	},
+	"poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00007064",
+	"datová_sada": [
+		"https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-1.jsonld",
+		"https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-2.jsonld",
+		"https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-3.jsonld"
+	]
+}
