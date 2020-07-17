@@ -42,6 +42,7 @@
   "distribuce": [
     {
       "typ": "Distribuce",
+      "iri": "https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-3.jsonld/distribuce/1",
       "název": {
         "cs": "Endpoint1",
         "en": "Endpoint1EN"
@@ -49,6 +50,7 @@
       "přístupové_url": "https://endpoint1.cz",
       "přístupová_služba": {
         "typ": "Datová služba",
+        "iri": "https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-3.jsonld/distribuce/1/datová-služba",
         "přístupový_bod": "https://endpoint1.cz",
         "popis_přístupového_bodu": "https://endpointDesc.cz",
         "název": {
