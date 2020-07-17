@@ -44,7 +44,8 @@
       "typ": "Distribuce",
       "iri": "https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-2.jsonld/distribuce/1",
       "soubor_ke_stažení": "https://fejk",
-      "mediaType": "http://www.iana.org/assignments/media-types/text/csv",
+      "přístupové_url": "https://fejk",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
       "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
       "podmínky_užití": {
         "typ": "Specifikace podmínek užití",
