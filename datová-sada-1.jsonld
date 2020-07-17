@@ -1,0 +1,41 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://opendata-mvcr.github.io/testovaci-lkod/datová-sada-1.jsonld",
+  "typ": [
+    "Datová sada",
+    "https://data.gov.cz/slovník/nkod/typ-datové-sady-dle-zdroje/Formulář"
+  ],
+  "název": {
+    "cs": "Vrchní datová sada hierarchie",
+    "en": "Top dataset in a hierarchy"
+  },
+  "popis": {
+    "cs": "Vrchní datová sada hierarchie, Vrchní datová sada hierarchie",
+    "en": "Top dataset in a hierarchy, Top dataset in a hierarchy"
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "hierarchie",
+      "vrchní"
+    ],
+    "en": [
+      "hierarchy",
+      "top"
+    ]
+  },
+  "periodicita_aktualizace": "frequency:MONTHLY",
+  "téma": [
+    "theme:INTR"
+  ],
+  "koncept_euroVoc": [],
+  "specifikace": [
+    "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/draft/"
+  ],
+  "kontaktní_bod": {},
+  "distribuce": []
+}
